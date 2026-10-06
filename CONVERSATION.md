@@ -140,3 +140,27 @@ def compute_ctr(impressions, clicks):
 Which function takes exactly two numeric arguments and returns a ratio?
 
 *Cut by the tutor: One function per answer. The next one is yours to write.*
+
+---
+## 2026-10-06 19:54, in .
+
+**Me:** how to solve the problem like get the sum in the list
+
+**Tutor:**
+
+Concept: Summing all numbers in a list using a loop.
+
+```python
+# TODO: write a function that returns the sum of all numbers in a list
+def sum_list(numbers):
+    total = 0
+    for num in numbers:
+        total = total + num
+    return total
+
+# Example usage (not part of the function)
+example = [2, 4, 6]
+print(sum_list(example))  # Should print 12
+```
+
+Question: Which built-in function could you use instead of the loop to get the same result?
