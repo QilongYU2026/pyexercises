@@ -226,3 +226,22 @@ for ??? in ???:
 ```
 
 Which built-in method gives you both keys and values in one go?
+
+---
+## 2026-10-06 21:01, in .
+
+**Me:** how to loop and see the item
+
+**Tutor:**
+
+Looping to inspect each item is done with a **for-loop**.
+
+```python
+# TODO: replace the list with your data
+items = ["apple", "banana", "cherry"]
+
+for item in items:
+    print(item)   # TODO: replace with whatever you want to do with each item
+```
+
+What loop construct are you using here?

@@ -24,10 +24,18 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What I compute for each item, and why it is worth showing:
+# 1. In: A list of monthly order quantities.
+# 2. Process: Go through every item and check whether it is greater than or equal to 5.
+# 3. Out: The position, order quantity, and result for every item.
+# 4. What I compute for each item, and why it is worth showing: I check whether each order quantity is greater than or equal to 5. This shows which order quantities reach the threshold of 5.
 
 
 # Your code below
+
+numbers = [5,6,7,8,1,2,3,4,5,6,7]
+
+for i in range(len(numbers)):
+    if numbers[i] >= 5:
+        print(i+1, numbers[i], " is higher than or equal to 5")
+    else:
+        print(i+1, numbers[i], " is lower than 5")
