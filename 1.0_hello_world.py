@@ -32,3 +32,12 @@ DELIVERABLE
 
 
 print("Eddy")
+print("Eddy")
+print("Eddy")
+print("Eddy")
+print("Eddy")
+
+print("For a loop")
+
+for i in range(1,6):
+    print("YU")
