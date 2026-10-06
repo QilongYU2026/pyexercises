@@ -207,3 +207,22 @@ reversed_list = original[::-1]  # TODO: What is the slice notation doing here?
 ```
 
 Question: Which of these two methods changes the original list?
+
+---
+## 2026-10-06 20:42, in .
+
+**Me:** how to get every item in the dictionary
+
+**Tutor:**
+
+Looping over every item in a dictionary.
+
+```python
+toy_dict = {"alpha": 10, "beta": 20, "gamma": 30}
+
+# TODO: print each key and its value
+for ??? in ???:
+    print(???)
+```
+
+Which built-in method gives you both keys and values in one go?

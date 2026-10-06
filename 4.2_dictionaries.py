@@ -23,35 +23,41 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
-
+# 1. In: Information about a product.
+# 2. Process:Store the product information in a dictionary, read it, change the price, remove the country field, and display every field with its value.
+# 3. Out: The product information after the changes.
+# 4. My object, my five fields, and why those: My object is a battery. My five fields are name, price, supplier, country, and stock. These fields are useful for identifying the product, its cost, its supplier, its origin, and its available quantity.
 
 # Your code below
 
-name = "Eddy"
-age = 26
-occupation = "Superman"
-city = "Paris"
-salary = 500000
+name = "Battery"
+price = 120
+supplier = "ABC Company"
+country = "France"
+stock = 500
 
 print ("Name: " + name)
-print ("Age: " + str(age))
-print ("Occupation: " + occupation)
-print ("City: " + city)
-print ("Salary: $" + str(salary))
+print ("Price: " + str(price))
+print ("Supplier: " + supplier)
+print ("Country: " + country)
+print ("Stock: " + str(stock))
 
-person ={"name": name, "age": age, "occupation": occupation, "city": city, "salary": salary }
+product = { "name": name, "price": price, "supplier": supplier, "country": country, "stock": stock}
 
-print("Person dictionary: ", person)
+print("Product dictionary: ", product)
 
-# update the age field
-person["age"] = 18
+# update the price field
+product["price"] = 180
 
-# remove the salary field
-salary = person.pop("salary")
+# remove the country field
+country = product.pop("country")
 
-print("Person dictionary after removing salary field: ", person)
-print("Removed salary")
+print("Product dictionary after removing country field: ", product)
+print("Removed country")
+
+# display every field with its value
+
+for key,value in product.items(): # 遍历
+    print(key, ":", value)
+
+print(product.get("weight", "Field not found"))
