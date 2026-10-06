@@ -245,3 +245,43 @@ for item in items:
 ```
 
 What loop construct are you using here?
+
+---
+## 2026-10-06 21:24, in .
+
+**Me:** how to write a while loop
+
+**Tutor:**
+
+A while loop runs a block of code as long as a condition is True.
+
+```python
+# Countdown from 5 to 1
+count = 5
+while count > 0:
+    print("Count:", count)
+    count = count - 1
+```
+
+What must you change in the condition so the loop stops after printing 5?
+
+---
+## 2026-10-06 21:26, in .
+
+**Me:** how to write a while loop and show the attempts
+
+**Tutor:**
+
+A while loop repeats code as long as a condition is True.
+
+```python
+attempts = 0
+max_attempts = 3
+
+while attempts < max_attempts:
+    attempts += 1          # TODO: count this attempt
+    print(f"Attempt #{attempts}")
+    # TODO: add the condition that stops the loop
+```
+
+What is the name of the operator that compares attempts with max_attempts?

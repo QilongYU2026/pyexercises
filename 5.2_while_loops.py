@@ -28,10 +28,23 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
+# 1. In: The user's answer.
+# 2. Process: Keep asking the user to type yes until the answer is yes or 3 attempts are reached.
+# 3. Out: The result and the total number of attempts.
+# 4. My stop condition, my attempt limit, my summary: The program stops when the user answers yes or after 3 attempts. It accepts different capitalizations and extra spaces. The summary shows whether the user answered yes and how many attempts were made.
 
 
 # Your code below
+
+attempts = 0
+answer = "no"
+
+while answer != "yes" and attempts < 3:
+    answer = input ("Type yes to stop").strip().lower()
+    attempts = attempts + 1
+
+if answer == "yes":
+    print("Your answer is yes after", attempts, " times")
+else:
+    print("Maximum attempts reached")
+    print("Total attempts: ", attempts)
