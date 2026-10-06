@@ -24,10 +24,17 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In:A sentence entered by the user
+# 2. Process:Apply four string methods to the sentence
+# 3. Out:Four transformed versions of the sentence
+# 4. My four transformations, and when each is useful: upper(): converts all letters to uppercase. lower(): converts all letters to lowercase. strip(): removes spaces at the beginning and end. title(): capitalizes the first letter of each word.
 
 
 # Your code below
+
+sentence = input("Enter a sentence: ")
+
+print(sentence.upper())
+print(sentence.lower())
+print(sentence.strip())
+print(sentence.title())

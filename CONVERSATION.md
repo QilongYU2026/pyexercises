@@ -98,3 +98,24 @@ message = # TODO
 ```
 
 What function joins two strings together?
+
+---
+## 2026-10-06 15:18, in .
+
+**Me:** how to add a string in python
+
+**Tutor:**
+
+Concatenating strings in Python means joining them together.
+
+```python
+def join_strings(part1, part2):
+    # TODO: return the two strings joined with a space in between
+    pass
+
+# Example usage (do not copy this into your file)
+result = join_strings("hello", "world")
+print(result)  # Expected: "hello world"
+```
+
+What function do you use to join two strings with a space as the separator?
