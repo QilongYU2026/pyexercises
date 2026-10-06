@@ -33,12 +33,8 @@ DELIVERABLE
 
 
 # Your code below
-name = input("Enter your name:")
+product = input("Enter the product name: ")
 
-print(name)
+quantity = input("Enter the quantity: ")
 
-age = input("Entrer your age:")
-
-print(age)
-
-print("My name is " +name+ ", and I am " +age+ " years old.")
+print("The order contains", quantity, "units of", product)

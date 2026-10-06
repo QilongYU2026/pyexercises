@@ -80,3 +80,21 @@ print(greeting)
 ```
 
 What operator joins two strings together?
+
+---
+## 2026-10-06 15:09, in .
+
+**Me:** how to add a string in python
+
+**Tutor:**
+
+Concatenating strings in Python.
+
+```python
+# TODO: complete the line to join two strings
+greeting = "Hello"
+name = "beta"
+message = # TODO
+```
+
+What function joins two strings together?
