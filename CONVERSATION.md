@@ -63,3 +63,20 @@ for item in items:
 ```
 
 Which built-in function gives you the length of `items`?
+
+---
+## 2026-10-06 15:03, in .
+
+**Me:** how to add a string in python
+
+**Tutor:**
+
+Concatenating strings.
+
+```python
+# TODO: complete the line
+greeting = "Hello"  # TODO: add ", world!" to this string
+print(greeting)
+```
+
+What operator joins two strings together?
