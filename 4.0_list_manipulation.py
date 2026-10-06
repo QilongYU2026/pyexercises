@@ -38,10 +38,22 @@ num1 =2
 num2 = 3
 num3 = 4
 
-number = [5,6,7,8,1,2,3,4,5,6,7]
+list = [5,6,7,8,1,2,3,4,5,6,7]
 
 print(num1)
 print(num2)
 print(num3)
 
-print(number[0])
+# list before sort
+print("The list is not sorted", list)
+
+# 自动对列表排序
+list.sort()
+
+print("The sorted list is:", list)
+
+# removing the last item from the list 删掉最后一个元素
+list.pop()
+
+#print the list after removing the last number
+print("The list after removing the last:", list)

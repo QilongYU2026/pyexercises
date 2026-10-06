@@ -30,3 +30,28 @@ DELIVERABLE
 
 
 # Your code below
+
+name = "Eddy"
+age = 26
+occupation = "Superman"
+city = "Paris"
+salary = 500000
+
+print ("Name: " + name)
+print ("Age: " + str(age))
+print ("Occupation: " + occupation)
+print ("City: " + city)
+print ("Salary: $" + str(salary))
+
+person ={"name": name, "age": age, "occupation": occupation, "city": city, "salary": salary }
+
+print("Person dictionary: ", person)
+
+# update the age field
+person["age"] = 18
+
+# remove the salary field
+salary = person.pop("salary")
+
+print("Person dictionary after removing salary field: ", person)
+print("Removed salary")
