@@ -24,18 +24,17 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens on 0, on a negative number, on a very large number:
-
+# 1. In:A positive integer entered by the user.
+# 2. Process:Check every number from 1 to the user's number and determine if it is odd or even.
+# 3. Out:"odd" or "even" for every number from 1 to the user's number.
+# 4. What happens on 0, on a negative number, on a very large number:If the number is 0 or negative, the program displays a message asking for a positive number. If the number is greater than 100, it displays a message saying that the number is too large.
 
 # Your code below
 num = int(input("Enter a number:"))
 
-result = num % 2
-
-if result != 0:
-    print("odd!")
-else:
-    print("even!!")
+for num in range (1,num+1):     #range左边包含右边不包含，所以要num+1
+    result = num % 2
+    if result != 0:
+        print("odd!")
+    else:
+        print("even!!")
