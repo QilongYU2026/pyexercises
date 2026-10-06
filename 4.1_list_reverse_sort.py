@@ -32,3 +32,22 @@ DELIVERABLE
 
 
 # Your code below
+
+# 排序会生成新列表：sorted()；修改原列表的排序sort()；倒叙排列reverse=True; 生成新列表的倒叙reversed
+
+numbers = [5,6,7,8,1,2,3,4,5,6,7]
+
+# 生成新列表的排序
+new_numbers = sorted(numbers)
+print(new_numbers)
+
+# 修改原列表的重新排序
+numbers.sort()
+print(numbers)
+
+# 倒叙排列
+print(sorted(numbers, reverse=True))
+
+# 生成新列表的倒叙排列
+backlist = list(reversed(numbers))
+print(backlist)

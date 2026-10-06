@@ -164,3 +164,25 @@ print(sum_list(example))  # Should print 12
 ```
 
 Question: Which built-in function could you use instead of the loop to get the same result?
+
+---
+## 2026-10-06 20:09, in .
+
+**Me:** how to reverse a list?
+
+**Tutor:**
+
+Reversing a list means creating a new list whose elements are in the opposite order.
+
+```python
+def reverse_list(original):
+    # TODO: return a new list with the elements of original in reverse order
+    pass
+
+# Example usage (not part of your code):
+sample = [10, 20, 30]
+reversed_sample = reverse_list(sample)
+print(reversed_sample)  # Should print [30, 20, 10]
+```
+
+Which built-in list method reverses the order of elements in place?
