@@ -25,10 +25,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four orders, and which ones modify the original:
+# 1. In: My original list of monthly order quantities.
+# 2. Process: Display the list in four different orders without changing the original list.
+# 3. Out: Four different orders of the list and the original list at the end.
+# 4. My four orders, and which ones modify the original:My four orders are original, ascending, descending, and reversed. sorted() and reversed() create new results. sort() modifies a list in place, so I use sort() only on a copy of the original list.
 
 
 # Your code below
@@ -45,9 +45,9 @@ print(new_numbers)
 numbers.sort()
 print(numbers)
 
-# 倒叙排列
+# 降序排列
 print(sorted(numbers, reverse=True))
 
-# 生成新列表的倒叙排列
+# 生成新列表的降序排列
 backlist = list(reversed(numbers))
 print(backlist)
