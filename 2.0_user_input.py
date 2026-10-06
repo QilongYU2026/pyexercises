@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: to get the users name and age
-# 2. Process: join the name and the age in the same statement
-# 3. Out: a sentence with the name and user that we got from user
-# 4. My two fields, and what I would do with them: the name is personal
+# 1. In: to get the users product and quantity
+# 2. Process: join the product and the quantity in the same statement
+# 3. Out: a sentence with the product and quantity that we got from user
+# 4. My two fields, and what I would do with them: i would like to know the quantity of the toy that i want
 
 
 # Your code below
