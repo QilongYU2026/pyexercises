@@ -186,3 +186,24 @@ print(reversed_sample)  # Should print [30, 20, 10]
 ```
 
 Which built-in list method reverses the order of elements in place?
+
+---
+## 2026-10-06 20:20, in .
+
+**Me:** how the orignial list can be not reversed
+
+**Tutor:**
+
+Concept: Reversing a list in-place vs creating a new reversed list.
+
+Pattern:
+```python
+original = [1, 2, 3, 4]
+# Option 1: reverse in-place (changes original)
+original.reverse()  # TODO: What does this return?
+
+# Option 2: create a new reversed list (original stays unchanged)
+reversed_list = original[::-1]  # TODO: What is the slice notation doing here?
+```
+
+Question: Which of these two methods changes the original list?

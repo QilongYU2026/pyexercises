@@ -37,17 +37,22 @@ DELIVERABLE
 
 numbers = [5,6,7,8,1,2,3,4,5,6,7]
 
+print("The orignial list is: ", numbers)
+
 # 生成新列表的排序
 new_numbers = sorted(numbers)
-print(new_numbers)
+print("Ascending ", new_numbers)
 
 # 修改原列表的重新排序
-numbers.sort()
-print(numbers)
+copy_numbers = numbers.copy()
+copy_numbers.sort()
+print("Sorted: ", copy_numbers)
 
 # 降序排列
-print(sorted(numbers, reverse=True))
+print("Descending: ",sorted(numbers, reverse=True))
 
 # 生成新列表的降序排列
 backlist = list(reversed(numbers))
-print(backlist)
+print("Reversing: ", backlist)  
+
+print("The orignial list has not changed: ", numbers)
