@@ -119,3 +119,24 @@ print(result)  # Expected: "hello world"
 ```
 
 What function do you use to join two strings with a space as the separator?
+
+---
+## 2026-10-06 15:41, in .
+
+**Me:** how to calculate the numbers
+
+**Tutor:**
+
+Calculating marketing metrics like CTR, CPA, and ROAS from a CSV export is done by reading the file, extracting the relevant columns, and applying simple formulas.
+
+```python
+def compute_ctr(impressions, clicks):
+    # TODO: return clicks divided by impressions, as a percentage
+    pass
+
+# --- cut by the tutor: One function per answer. The next one is yours to write ---
+```
+
+Which function takes exactly two numeric arguments and returns a ratio?
+
+*Cut by the tutor: One function per answer. The next one is yours to write.*
