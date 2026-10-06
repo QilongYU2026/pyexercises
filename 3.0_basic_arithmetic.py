@@ -24,10 +24,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In:Two numbers entered by the user.
+# 2. Process:The program adds, subtracts, multiplies, and divides the two numbers.
+# 3. Out:The results of addition, subtraction, multiplication, and division.
+# 4. What happens when the second number is zero, and why:If the second number is zero, the program displays a message instead of dividing, because division by zero is not possible.
 
 
 # Your code below
