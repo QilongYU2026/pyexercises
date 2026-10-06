@@ -44,3 +44,22 @@ print("This is the text you want to display")
 ```
 
 What is the name of the function used to print text in Python?
+
+---
+## 2026-10-06 14:19, in .
+
+**Me:** how to write a loop in python
+
+**Tutor:**
+
+A loop repeats a block of code while a condition holds.
+
+```python
+# Loop over a list of items
+items = ["apple", "banana", "cherry"]
+
+for item in items:
+    # TODO: print each item
+```
+
+Which built-in function gives you the length of `items`?

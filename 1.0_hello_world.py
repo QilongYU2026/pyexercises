@@ -22,10 +22,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In: a string of my name
+# 2. Process: a for loop prints my name for 5 or 10 times
+# 3. Out: my name is printed 10 times
+# 4. My message, and why: wrote a python file to print my name 10 time using a for loop
 
 
 # Your code below
